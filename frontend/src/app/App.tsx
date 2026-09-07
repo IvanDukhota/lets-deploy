@@ -1,10 +1,12 @@
-import './App.css'
+import Header from '../shared/ui/Header/Header'
+import Landing from '../pages/Landing/Landing'
 
 function App() {
   return (
-    <div className="app">
-      <h1>LetsDeploy</h1>
-    </div>
+    <>
+      <Header />
+      <Landing />
+    </>
   )
 }
 
